@@ -7,24 +7,12 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-attachment:fixed;
-    font-size: 24px;
-    margin: 0px;
-    padding: 0px;
 }
 
-/* Portrait layout (default) */
-.app {
-  position: absolute;
-  top: 30px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+div.container {
+    margin-top: 30px;
 }
 
-.app pre {
-    margin: 0;
-    padding: 0;
-    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    white-space: pre-wrap;
+div.message {
+    border: 1px solid pink;
 }
-
