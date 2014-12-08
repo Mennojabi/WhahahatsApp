@@ -16,3 +16,7 @@ div.container {
 div.message {
     border: 1px solid pink;
 }
+
+div.message.haha {
+    border: 1px dotted pink;
+}
